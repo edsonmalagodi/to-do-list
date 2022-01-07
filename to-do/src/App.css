@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif; 
+	font-weight: 300;
+}
+
+.App{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+h1{
+    margin: 30px 0;
+}
+
+.todo-input{
+	padding: 16px;
+  	border: 1.9px solid #7DCDA6;
+    width: 52rem;
+    font-size: 16px;
+
+    
+}
+
+.todo-button{
+    padding: 16px;
+    border: 1.9px solid #7DCDA6;
+    border-radius: 8%;
+    color: #7DCDA6;
+}
+
+.todo-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+    width: 58rem;
+
+    padding: 16px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.delete-icon{
+    margin-right: 5px;
+    color: #D51E21;
+}
+
+.edit-icon{
+    color: #33B2E4;
+}
+
