@@ -7,7 +7,7 @@ function App() {
   return (
     
     <div className="App">
-    <h1>meta-2022</h1>
+    <h1>To Do List</h1>
       <TodoList />
     </div>
     
